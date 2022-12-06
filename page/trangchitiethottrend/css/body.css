@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body-items {
+    color: #000;
+}
+
+body {
+    font-size: 18px;
+}
+
+.body-content-title {
+    font-size: 32px;
+}
+
+.body-content-title,
+.body-content-text {
+    color: #15171a;
+}
+
+.body-content-text {
+    font-size: 18px;
+}
+
+.decription li {
+    color: #15171a;
+    list-style: circle;
+    font-size: 18px;
+}
+
+.btn-dat .btn {
+    width: 250px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+}
+
+.btn-dat:hover .btn {
+    opacity: 0.8;
+    background-color: orange;
+}
+
+.body-a-title {
+    display: block;
+    color: white;
+}
+
+.body-a-title:hover {
+    color: white;
+}
+
+.body-content-items img {
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pakage-header-title {
+    display: flex;
+    gap: 0 16px;
+    align-items: center;
+}
+
+.pakage-header-title .title-goiuudai {
+    font-size: 34px;
+    font-weight: 700;
+    color: orange;
+}
+
+.pakage-header-title .title-goiuudai-decription {
+    color: #888;
+    margin-bottom: 0;
+}
+
+.body-content-title-hottrend {
+    font-size: 24px;
+    color: orange;
+    font-weight: 700;
+}

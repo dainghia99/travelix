@@ -1,0 +1,492 @@
+.tour-content {
+    margin-bottom: 80px;
+}
+
+.tour-content-title {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tour-content-decription {
+    font-size: 24px;
+    color: #919191;
+    font-style: italic;
+}
+.tour-content-decription {
+    text-align: center;
+}
+
+.tour {
+    margin-top: 60px;
+}
+
+.active {
+    margin-bottom: 24px;
+    height: 475px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tour-lists {
+    margin-bottom: 80px;
+}
+
+.tour-item {
+    height: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(49, 18, 75, .55);
+}
+
+.dob {
+    line-height: 26px;
+    width: 210px;
+    height: 26px;
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.tour-item-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour-item-content h1 {
+    font-size: 59px;
+    line-height: 59px;
+    font-weight: 700;
+}
+
+.tour-item-content h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.xephang {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.xephang1 {
+    color: #ffeb8d;
+}
+
+.xephang2 {
+    color: #fed46b;
+}
+
+.xephang3 {
+    color: #fbb53d;
+}
+
+.xephang4 {
+    color: #fa9e1b;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-content-item {
+    outline: none;
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(45deg, #f99d1d, #8e50fe);
+} 
+
+.btn-content-item a {
+    color: white;
+}
+
+.btn-content-item:hover {
+    background-image: linear-gradient(45deg, #8e50fe, #f99d1d);
+    transition: ease 0.3s;
+}
+
+.pakage {
+    margin-bottom: 80px;
+    height: 500px;
+    background-image:linear-gradient(90deg, rgba(240, 152, 29, 0.7), rgba(141, 89, 236, 0.6)), url('/assets/img/packagebg.webp');
+}
+
+.pakage-items {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pakage-item {
+    display: flex;
+    justify-items: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 285px;
+    background-color: white;
+}
+
+.items-title {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0 70px;
+}
+
+.pakage-item h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.package-ranks {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+}
+
+.pakage-item-decription {
+    color: #000;
+    text-align: center;
+}
+
+.xephang5 {
+    color: #a5a5a5;
+}
+
+/* Package sale */
+
+.pakage-sale {
+    background-color: #f3f6f9;
+    margin-bottom: 80px;
+}
+
+.container__items {
+    margin-bottom: 30px;
+}
+
+.pakage-sale-itmes {
+    display: flex;
+    gap: 0 16px;
+    height: 295px;
+}
+
+.pakage-item-left {
+    width: 50%;
+    height: 100%;
+    /* background-image: url('/assets/img/offersbg1.webp'); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-sale {
+    height: 93%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pakage-sale h1 {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-sale-pagke {
+    outline: none;
+    border: none;
+    width: 170px;
+    height: 38px;
+    background-color: orange;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn-sale-pagke a{
+    color: white;
+}
+
+.btn-sale-pagke:hover {
+    opacity: 0.9;
+}
+
+.pakage-header-title h1 {
+    margin: 0;    
+    font-size: 36px;
+    color: orange;
+}
+
+.pakage-item-right {
+    width: 50%;
+    height: 100%;
+}
+
+.pakage-header-title {
+    display: flex;
+    gap: 0 5px;
+    align-items: center;
+}
+
+.pakage-header-title p {
+    margin-bottom: -13px;
+    font-size: 14px;
+    color: #919191;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.page-item-right-ranks {
+    justify-content: flex-start;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.pakage-right-header-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pakage-right-header-item .decription {
+    color: #000;
+}
+.pakage-right-header-item-img {
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+}
+
+.pakage-right-header-item h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pakage-item-right-top .decription {
+    margin-top: 12px;
+}
+
+a.mota {
+    display: flex;
+}
+
+.mota .title-docthem {
+    font-size: 24px;
+    margin: 0;
+}
+
+.item-titile-list-heading {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+
+
+/* Phản hồi của khách hàng */
+.about {
+    margin-bottom: 80px;
+}
+
+.about-content {
+    margin-top: 80px;
+}
+
+.about-item1 {
+    background-image: url('/assets/img/ab1.webp');
+    padding-top: 130%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.about-item2 {
+    background-image: url('/assets/img/ab2.webp');
+    padding-top: 130%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.about-item3 {
+    background-image: url('/assets/img/ab3.webp');
+    padding-top: 130%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.about-item-icon {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background: #fa9e1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.about-img {
+    filter: brightness(200%) grayscale(100%);
+    height: 35px;
+}
+
+.about-item__content {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 40px;
+    background: rgba(49, 18, 75, .8);
+} 
+
+.about-item__header {
+    padding: 8px 12px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    transform: translateY(-50%);
+}
+
+.about-item__name {
+    font-size: 14px;
+    color: #2d2d2d;
+    font-weight: 600;
+}
+
+.about-item__date {
+    margin: 0;
+    font-size: 11px;
+    color: #2d2d2d;
+    font-weight: 300;
+}
+
+.about-item-body span {
+    font-size: 20px;
+    display: block;
+    margin: 35px 0 10px 0;
+    color: #fff;
+}
+
+.about-item-body p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.9;
+}
+
+/* Hot trend */
+/* #fa9e1c #8d4fff */
+.trend {
+    margin-bottom: 80px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(45deg, #fa9e1c , #8d4fff);
+    margin-bottom: 80px;
+}
+
+.trend-item-right-header:hover h4 {
+    color: orange;
+}
+
+.trend-item {
+    display: flex;
+    gap: 0 8px;
+    margin-bottom: 25px;
+}
+
+.trend-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trend-item-right-header h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.trend-item-right-price {
+    color: orange;
+    font-weight: 700;
+    margin: 0;
+}
+
+.trend-item-right-decription {
+    color: #ccc;
+    margin: 0;
+}
+
+/* Hiệu ứng ảnh */
+
+.trend-item-left {
+    overflow: hidden;
+}
+
+#trend-item-left-img {
+    width: 82px;
+    height: 76px;
+}
+
+.trend-item-left #trend-item-left-img {
+    transition: all ease-in .3s;
+}
+
+.trend-item-left:hover #trend-item-left-img {
+    transform: scale(1.3) rotate(15deg);
+    opacity: 0.9;
+}
+
+#btn-xemthem {
+    color: white;
+}
+
+/* transform:  scale(1) ro */
+
+/* espoonsive */
+@media (max-width: 992px) {
+    .hide-on-md {
+        display: none;
+    }
+}

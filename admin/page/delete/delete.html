@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang Xóa</title>
+        <script src="./lib/popper/popper.min.js"></script>
+        <link rel="stylesheet" href="./lib/bootstraps/css/bootstrap.min.css">
+        <script src="./lib/bootstraps/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ADMIN TRAVALIX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="http://localhost:5173/">Home</a>
+                        </li>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Thêm
+                            </a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="http://localhost:5173/page/tourhot/tourhot.html">Thêm Tour Hot</a></li>
+                                <li><a class="dropdown-item" href="http://localhost:5173/page/goiuudai/goiuudai.html">Thêm Gói Ưu Đãi</a></li>
+                                <li><a class="dropdown-item" href="http://localhost:5173/page/hottrend/hottrend.html">Thêm Hot Trend</a></li>
+                                <li><a class="dropdown-item" href="http://localhost:5173/page/delete/delete.html">Xóa</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Content -->
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 sidebar">
+                        <h1 class="title">Các Tour Hot</h1>
+                    </div>
+                    <div class="col-xl-9 content-items" id="content-items-tourhot">
+                        
+                    </div>
+
+                    <div class="col-xl-3 sidebar">
+                        <h1 class="title">Các Gói Ưu Đãi</h1>
+                    </div>
+                    <div class="col-xl-9 content-items" id="content-items-goiuudai">
+                        
+                    </div>
+
+                    <div class="col-xl-3 sidebar">
+                        <h1 class="title">HOT TREND</h1>
+                    </div>
+                    <div class="col-xl-9 content-items" id="content-items-hottrend">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

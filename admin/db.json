@@ -1,0 +1,183 @@
+{
+  "tourhot": [
+    {
+      "id": 1,
+      "name": "Scotlent",
+      "dob": "15 tháng 6 - 8 tháng 12",
+      "image": "http://localhost:5173/img/tour1.webp",
+      "price": "1800"
+    },
+    {
+      "id": 2,
+      "name": "Greece",
+      "dob": "15 tháng 5 - 8 tháng 12",
+      "image": "http://localhost:5173/img/tour2.webp",
+      "price": "1500"
+    },
+    {
+      "id": 3,
+      "name": "Mauritius",
+      "dob": "16 tháng 8 - 28 tháng 10",
+      "image": "http://localhost:5173/img/tour3.webp",
+      "price": "950"
+    },
+    {
+      "id": 4,
+      "name": "Dubai",
+      "dob": "26 Tháng 08 - 30 Tháng 09",
+      "image": "https://vnn-imgs-a1.vgcloud.vn/icdn.dantri.com.vn/2022/03/13/hoi-gai-xinh-goi-cam-noi-gi-truoc-ap-luc-mac-sexy-la-hu-hongdocx-1647188022766.jpeg",
+      "price": "250"
+    },
+    {
+      "id": 5,
+      "name": "Hawai",
+      "dob": "26 Tháng 03 - 16 Tháng 8",
+      "image": "https://thietbiketnoi.com/wp-content/uploads/2021/09/giai-tri-vai-phut-voi-nhung-buc-anh-dep-gai-xinh-hot-girl-hinh-nen-cho-dien-thoai-cua-ban-3.jpg",
+      "price": "500"
+    },
+    {
+      "id": 6,
+      "name": "Đảo Bali",
+      "dob": "28 Tháng 08 - 22 Tháng 12",
+      "image": "https://vivureviews.com/wp-content/uploads/2021/12/anh-gai-mac-vay.jpg",
+      "price": "120"
+    }
+  ],
+  "goiUuDai": [
+    {
+      "id": 1,
+      "name": "Đảo Rắn Brazil",
+      "image": "http://localhost:5173/img/offersbg1.webp",
+      "price": "80",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    },
+    {
+      "id": 2,
+      "name": "Đảo Mặt Trời",
+      "image": "http://localhost:5173/img/offersbg2.webp",
+      "price": "110",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    },
+    {
+      "id": 3,
+      "name": "Đảo Nổi",
+      "image": "http://localhost:5173/img/offersbg3.webp",
+      "price": "150",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    },
+    {
+      "id": 4,
+      "name": "Đảo Moorea",
+      "image": "http://localhost:5173/img/offersbg4.webp",
+      "price": "180",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    },
+    {
+      "id": 5,
+      "name": "Đảo Phú Quốc",
+      "image": "https://kenh14cdn.com/203336854389633024/2021/4/1/1670434331175447704154547388198937473323681n-1617255032993963755415.jpg",
+      "price": "300",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    },
+    {
+      "id": 6,
+      "name": "Đảo Seychelles",
+      "image": "https://image-us.24h.com.vn/upload/2-2022/images/2022-04-27/anh-1-1651049189-186-width650height1054.jpg",
+      "price": "500",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    },
+    {
+      "id": 7,
+      "name": "Đà Nẵng",
+      "image": "https://gaixinh.photo/wp-content/uploads/2021/11/gai-xinh-1.jpg",
+      "price": "350",
+      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
+    }
+  ],
+  "hottrend": [
+    {
+      "id": 1,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td1.webp",
+      "price": 180,
+      "address": "MADRID, TÂY BAN NHA"
+    },
+    {
+      "id": 2,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td2.webp",
+      "price": 240,
+      "address": "BANG VIRGINIA, Mỹ"
+    },
+    {
+      "id": 3,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td3.webp",
+      "price": 320,
+      "address": "PARIS, PHÁP"
+    },
+    {
+      "id": 4,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td4.webp",
+      "price": 480,
+      "address": "DENHAM, ANH"
+    },
+    {
+      "id": 5,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td5.webp",
+      "price": 320,
+      "address": "QUẢN CHÂU, TRUNG QUỐC"
+    },
+    {
+      "id": 6,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td6.webp",
+      "price": 580,
+      "address": "CONNECTICUT, MỸ"
+    },
+    {
+      "id": 7,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td7.webp",
+      "price": 680,
+      "address": "ARIZONA, MỸ"
+    },
+    {
+      "id": 8,
+      "name": "KHÁCH SẠN LỚN",
+      "image": "http://localhost:5173/img/td8.webp",
+      "price": 720,
+      "address": "THƯỢNG HẢI, TRUNG QUỐC"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nickName": "nghiadai",
+      "name": "Đại Nghĩa",
+      "email": "dainghia@gmail.com",
+      "phoneNumber": "0965999999",
+      "password": "nghia12345"
+    },
+    {
+      "id": 2,
+      "nickName": "linhkt",
+      "name": "Khánh Linh",
+      "email": "linh@gmail.com",
+      "phoneNumber": "0945744953",
+      "password": "linh12345"
+    },
+    {
+      "id": 3,
+      "nickName": "minhanh",
+      "name": "Ánh Minh",
+      "email": "minh@gmail.com",
+      "phoneNumber": "0946744953",
+      "password": "minh12345"
+    }
+  ],
+  "xulydadangnhap": [],
+  "xulyformdattour": []
+}
