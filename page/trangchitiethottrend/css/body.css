@@ -77,7 +77,6 @@ body {
 }
 
 .body-content-title-hottrend {
-    font-size: 24px;
-    color: orange;
-    font-weight: 700;
+    font-size: 18px;
+    color: #333;
 }

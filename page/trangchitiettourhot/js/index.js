@@ -11,9 +11,9 @@ const renderUi = (data) => {
             </div>
             <div class="col-xl-1 d-xl-block d-lg-none d-md-none d-sm-none d-none"></div>
             <div class="col-xl-6 col-lg-7">
-                <h3 class="body-content-title">Địa điểm: ${item.name}</h3>
-                <div class="pakage-header-title">
-                    <h1 class="title-goiuudai">$ ${item.price}</h1>
+                <h3 class="body-content-title">Địa Điểm: ${item.name}</h3>
+                <div class="body-content-header-title">
+                    <h1 class="title-hottrend">$ ${item.price}</h1>
                 </div>
                 <p class="body-content-text">Hành trình: Hà Nội - ${item.name} - Hà Nội</p>
                 <p class="body-content-text">Lịch trình: 1 Tuần</p>

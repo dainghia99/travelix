@@ -14,9 +14,10 @@ body {
 
 .body-content-title {
     font-size: 32px;
+    color: orange;
+    font-weight: 800;
 }
 
-.body-content-title,
 .body-content-text {
     color: #15171a;
 }
@@ -52,4 +53,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.body-content-header-title .title-hottrend {
+    color: orange;
 }
