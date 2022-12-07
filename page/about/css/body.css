@@ -30,3 +30,13 @@
     font-size: 16px;
     color: #333;
 }
+
+.link-contact  {
+    color: orange;
+    text-decoration: none;
+}
+
+.link-contact:hover {
+    color: #333;
+    cursor: pointer;
+}

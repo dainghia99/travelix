@@ -20,27 +20,6 @@
       "dob": "16 tháng 8 - 28 tháng 10",
       "image": "http://localhost:5173/img/tour3.webp",
       "price": "950"
-    },
-    {
-      "id": 4,
-      "name": "Dubai",
-      "dob": "26 Tháng 08 - 30 Tháng 09",
-      "image": "https://vnn-imgs-a1.vgcloud.vn/icdn.dantri.com.vn/2022/03/13/hoi-gai-xinh-goi-cam-noi-gi-truoc-ap-luc-mac-sexy-la-hu-hongdocx-1647188022766.jpeg",
-      "price": "250"
-    },
-    {
-      "id": 5,
-      "name": "Hawai",
-      "dob": "26 Tháng 03 - 16 Tháng 8",
-      "image": "https://thietbiketnoi.com/wp-content/uploads/2021/09/giai-tri-vai-phut-voi-nhung-buc-anh-dep-gai-xinh-hot-girl-hinh-nen-cho-dien-thoai-cua-ban-3.jpg",
-      "price": "500"
-    },
-    {
-      "id": 6,
-      "name": "Đảo Bali",
-      "dob": "28 Tháng 08 - 22 Tháng 12",
-      "image": "https://vivureviews.com/wp-content/uploads/2021/12/anh-gai-mac-vay.jpg",
-      "price": "120"
     }
   ],
   "goiUuDai": [
@@ -70,27 +49,6 @@
       "name": "Đảo Moorea",
       "image": "http://localhost:5173/img/offersbg4.webp",
       "price": "180",
-      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
-    },
-    {
-      "id": 5,
-      "name": "Đảo Phú Quốc",
-      "image": "https://kenh14cdn.com/203336854389633024/2021/4/1/1670434331175447704154547388198937473323681n-1617255032993963755415.jpg",
-      "price": "300",
-      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
-    },
-    {
-      "id": 6,
-      "name": "Đảo Seychelles",
-      "image": "https://image-us.24h.com.vn/upload/2-2022/images/2022-04-27/anh-1-1651049189-186-width650height1054.jpg",
-      "price": "500",
-      "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
-    },
-    {
-      "id": 7,
-      "name": "Đà Nẵng",
-      "image": "https://gaixinh.photo/wp-content/uploads/2021/11/gai-xinh-1.jpg",
-      "price": "350",
       "decription": "Hơi ngược ngạo so với các thành phố biển khác, trong khi mùa hè là mùa đẹp nhất cho những chuyến đi bổ sung vitamin Sea thì Phú Quốc lại vào mùa mưa."
     }
   ],
