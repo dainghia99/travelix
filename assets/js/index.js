@@ -22,7 +22,7 @@ function renderTourHot(data) {
     const html = data.map((item) => {
         return `
             <div class="col-xl-4 col-lg-4">
-                <div class="tour-items${item.id}" id="linktourhot-${item.id}">
+                <div class="tour-items${item.id}" id="linktourhot-${item.name}">
                     <div class="tour-item">
                         <p class="dob">${item.dob}</p>
                         <div class="tour-item-content">
@@ -58,7 +58,7 @@ function renderGoiUuDai(data) {
     const html = data.map((item) => {
         return `
             <div class="container__items col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="pakage-sale-itmes">
+                <div class="pakage-sale-itmes" id="linktourhot-${item.name}">
                     <div class="pakage-sale-${item.id}">
                         <div class="btn-sale">
                             <button class="btn-sale-pagke"><a href="http://127.0.0.1:5500/page/dattour/dattour.html">ĐẶT NGAY</a></button>
@@ -106,7 +106,7 @@ function renderHotTrend(data) {
     const html = data.map((item) => {
         return `
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="trend-item">
+                <div class="trend-item" id="linktourhot-${item.address}">
                     <div class="trend-item-left">
                         <img id="trend-item-left-img" src="${item.image}" alt="anh">
                     </div>
@@ -134,13 +134,21 @@ function hideLiSearch() {
     search.style.display = "none";
 }   
 
-function search() {
+const getApi = async (api) => {
+    const response = await fetch(api);
+    const data = await response.json();
+    return data;
+}
 
-    function rederSearchIntourHot(data) {
-        const searchIcon = document.querySelector('.seach-icon-nav .header-nav-search__icon');
+const rederSearch = (data) => {
+    const searchIcon = document.querySelector('.seach-icon-nav .header-nav-search__icon');
         const html = data.map((item) => {
+            let values = item.name;
+            if (item.name === 'KHÁCH SẠN LỚN') {
+                values = item.address;
+            }
             return `
-                <li onclick="hideLiSearch()" class="search-item-show"><a id="sreach-a" href="#linktourhot-${item.id}">${item.name}</a></li>
+                <li onclick="hideLiSearch()" class="search-item-show"><a id="sreach-a" href="#linktourhot-${values}">${values}</a></li>
             `
         })
 
@@ -150,20 +158,32 @@ function search() {
         searchIcon.onclick = function () {
             $('.show-search').style.display = "none";
         }
+}
 
-    }
-
-    fetch(apiTourHot)
-        .then(res => res.json())
-        .then(data => {
-            let search = $('input[name="search"]')
-            search.oninput = (e) => {
-                let userSearch = data.filter(item => {
-                    return item.name.toLowerCase().includes(e.target.value.toLowerCase())
-                })
-                rederSearchIntourHot(userSearch);
+const search = async () => {
+    const dataTourHot = await getApi(apiTourHot)
+    const dataGoiUuDai = await getApi(apiGoiUuDai)
+    const dataHotTrend = await getApi(apiHotTrend)
+    const data = [...dataTourHot, ...dataGoiUuDai, ...dataHotTrend]
+    const searchInput = $('input[name="search"]')
+    searchInput.oninput = (e) => {
+        let userSearch = data.filter(item => {
+            let values = item.name;
+            if (item.name === 'KHÁCH SẠN LỚN') {
+                values = item.address
             }
+            return values.toLowerCase().includes(e.target.value.toLowerCase())
         })
+        if (userSearch.length > 0) {
+            if(userSearch.length < 15) {
+                rederSearch(userSearch);
+            } else {
+                $('.show-search').style.display = "none";
+            }
+        } else {
+            $('.show-search').style.display = "none";
+        }
+    }
 }
 
 const xuLyDuLieuDaDangNhap = () => {

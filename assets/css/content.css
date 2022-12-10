@@ -294,6 +294,10 @@ a.mota {
     margin: 0;
 }
 
+.title-docthem:hover {
+    color: orange;
+}
+
 .item-titile-list-heading {
     font-size: 32px;
     color: #000;
