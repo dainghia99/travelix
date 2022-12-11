@@ -5,17 +5,11 @@ const apiTourHot = 'http://localhost:3000/tourhot';
 const apiGoiUuDai = 'http://localhost:3000/goiUuDai';
 const apiHotTrend = 'http://localhost:3000/hottrend';
 
-function renderTrangChu(api, render, setBackground) {
-
-    fetch(api)
-        .then(res => res.json())
-        .then((data) => {
-            render(data);
-            setBackground(data);
-        })
-        .catch((e) => {
-            console.log(`Không thể kết nối API: ${e}`);
-        })
+const renderTrangChu = async (api, render, setBackground) => {
+    const response = await fetch(api)
+    const data = await response.json();
+    render(data);
+    setBackground(data);
 }
 
 function renderTourHot(data) {
@@ -186,21 +180,19 @@ const search = async () => {
     }
 }
 
-const xuLyDuLieuDaDangNhap = () => {
-    fetch('http://localhost:3000/xulydadangnhap')
-        .then(res => res.json())
-        .then(data => {
-            if (data.length > 0) {
-                document.querySelector('.header__top-right').classList.remove('header__top-right-affter');
-                document.querySelector('.header__top-right').style.display = 'none';
-                document.querySelector('.header__top-user').style.display = 'flex';
-            }
-        })
+const xuLyDuLieuDaDangNhap = async () => {
+    const res = await fetch('http://localhost:3000/xulydadangnhap')
+    const data = await res.json();
+    if (data.length > 0) {
+        document.querySelector('.header__top-right').classList.remove('header__top-right-affter');
+        document.querySelector('.header__top-right').style.display = 'none';
+        document.querySelector('.header__top-user').style.display = 'flex';
+    }
 }
 
-const xuLySuKienDangXuat = () => {
+const xuLySuKienDangXuat = async () => {
     const btnDangXuat = document.getElementById('logout');
-    btnDangXuat.onclick = () => {
+    btnDangXuat.onclick = async () => {
         document.querySelector('.header__top-right').classList.add('header__top-right-affter');
         document.querySelector('.header__top-right').style.display = 'flex';
         document.querySelector('.header__top-user').style.display = 'none';
@@ -212,20 +204,19 @@ const xuLySuKienDangXuat = () => {
         }
         fetch('http://localhost:3000/xulydadangnhap' + '/' + 1, option);
         
-        fetch('http://localhost:3000/xulyformdattour')
-            .then(res => res.json())
-            .then(data => {
-                if (data.length > 0) {
-                    const userId = data[0].id
-                    const option2 = {
-                        method: 'DELETE',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        }
-                    }
-                    fetch('http://localhost:3000/xulyformdattour' + '/' + userId, option2);
+        const res = await fetch('http://localhost:3000/xulyformdattour')
+        const data = await res.json();
+        if (data.length > 0) {
+            const userId = data[0].id
+            const option2 = {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
                 }
-            })
+            }
+            fetch('http://localhost:3000/xulyformdattour' + '/' + userId, option2);
+        }
+            
     }
 }
 

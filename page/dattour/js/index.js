@@ -9,18 +9,14 @@ const getValueInputForm = (user) => {
     }
 }
 
-const xuLyFormDaDangNhap = () => {
-    fetch('http://localhost:3000/xulyformdattour')
-        .then(res => res.json())
-        .then((data) => {
-            if(data.length > 0) {
-                const kq = data[0];
-                return kq;
-            }
-        })
-        .then((user) => {
-            getValueInputForm(user);
-        })
+const xuLyFormDaDangNhap = async () => {
+    const res = await fetch('http://localhost:3000/xulyformdattour')
+    const data = await res.json()
+
+    if(data.length > 0) {
+        const kq = data[0];
+        getValueInputForm(kq);
+    }
 }
 
 Validator({
